@@ -14,5 +14,9 @@
 
 ## Referencias.
 
+[Nginx](https://www.nginx.com/)
+
+[Kinsta](https://kinsta.com/es/base-de-conocimiento/que-es-nginx/)
+
 ## Autor
 [Hugo Gonzalez Salas](https://github.com/HugoGonzalezSalas)
