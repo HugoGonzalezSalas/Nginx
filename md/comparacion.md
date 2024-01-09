@@ -24,4 +24,4 @@ Y, por último, la diferencia más importante para el usuario final:
 
 - Apache es compatible con los archivos .htaccess para modificar el comportamiento de las webs, mientras que Nginx tiene sus propios archivos de configuración. Precisamente aquí es donde entra en juego LiteSpeed, que es eficiente como Nginx, pero conserva la compatibilidad con los archivos .htaccess.
 
-![image](/img/comparacion.png)
+![image](/img/comparacion.jpg)
