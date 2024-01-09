@@ -9,3 +9,6 @@
 [4.- Casos prácticos.](/md/practicas.md)
 
 5.- Referencias.
+
+6.- Autor
+Hugo Gonzalez Salas
