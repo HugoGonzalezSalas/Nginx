@@ -1,6 +1,6 @@
 # Nginx
 
-![image](/img/portada.jpg)
+![image](/img/portada.png)
 
 ## Indice
 
