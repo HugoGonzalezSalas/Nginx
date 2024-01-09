@@ -1,5 +1,9 @@
 # Nginx
 
+![image](/img/portada.jpg)
+
+## Indice
+
 [1.-Introducción.](/md/introduccion.md)
 
 [2.-Comparativa con Apache.](/md/comparacion.md)
@@ -8,8 +12,7 @@
 
 [4.- Casos prácticos.](/md/practicas.md)
 
-5.- Referencias.
+## Referencias.
 
-6.- Autor
-
-- [Hugo Gonzalez Salas](https://github.com/HugoGonzalezSalas)
+## Autor
+[Hugo Gonzalez Salas](https://github.com/HugoGonzalezSalas)
