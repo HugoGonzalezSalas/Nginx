@@ -1,4 +1,4 @@
-## CASOS PRACTICOS
+## Casos practicos
 
 Algunos comando o configuraciones que deberias saber:
 
