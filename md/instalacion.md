@@ -1,4 +1,4 @@
-## INSTALACION
+## Instalación
 
 Para llevar a cabo la isntalacion en Linux de Nginx necesitaremos seguir los siguientes pasos:
 
