@@ -8,10 +8,10 @@ Para llevar a cabo la isntalacion en Linux de Nginx necesitaremos seguir los sig
 Algunos ficheros/directorios de configuracion son:
 
 - /etc/nginx
-  ![imagen](instalacion1.png)
+  ![imagen](/img/instalacion1.png)
 - /etc/nginx/nginx.conf
-  ![imagen](instalacion2.png)
+  ![imagen](/img/instalacion2.png)
 - /etc/nginx/sites-available
-  ![imagen](instalacion3.png)
+  ![imagen](/img/instalacion3.png)
 - /var/www/html/index.nginx-debian.html
-  ![imagen](instalacion4.png)
+  ![imagen](/img/instalacion4.png)
