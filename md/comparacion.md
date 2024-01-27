@@ -1,4 +1,4 @@
-## Comparacion entre Ginx y Apache
+## Comparacion entre Nginx y Apache
 
 Algunas de sus principales diferencias son:
 
