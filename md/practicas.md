@@ -51,6 +51,12 @@ nano /var/www/html/index.html
 ```
 Una vez hecho esto pasaremos al siguiente paso, configurar el servidor de balanceo:
 ```
+# Instalar nginx 
+ apt install nginx 
+ systemctl start nginx
+ systemctl enable nginx
+ systemctl status nginx
+
 # Configurar servidor de balance
 rm -rf /etc/nginx/sites-available/default
 nano /etc/nginx/conf.d/balancing.conf
