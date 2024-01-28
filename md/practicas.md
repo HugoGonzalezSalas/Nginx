@@ -59,24 +59,24 @@ Una vez hecho esto pasaremos al siguiente paso, configurar el servidor de balanc
 
 # Configurar servidor de balance
 rm -rf /etc/nginx/sites-available/default
-nano /etc/nginx/conf.d/balancing.conf
-	upstream backend {
-    		server 192.168.1.XXX; # Ip del servidor primario
-    		server 192.168.1.XXX;  # Ip del servidor secundario
+nano /etc/nginx/nginx.conf
+(en el apartado de http:)
+	upstream hugogs {
+    		server 192.168.1.101; # Ip del servidor primario
+    		server 192.168.1.102;  # Ip del servidor secundario
 	}
 
+nano /etc/nginx/sites-available/default
 	server {
     		listen      80;
-    		server_name hugogs.ddns.net; # Pondremos nuestro dominio
+    		server_name hugogs.ddns.net; # Dominio registrado con la IP del servidor de balanceo de carga
 
     	location / {
-        	proxy_redirect      off;
-        	proxy_set_header    X-Real-IP $remote_addr;
-        	proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
-        	proxy_set_header    Host $http_host;
         	proxy_pass http://backend;
     		}
 	}
+
+systemctl restart nginx.service
 
 # Instalar certbot
 apt install certbot python3-certbot-nginx -y
